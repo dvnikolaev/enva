@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'CoFo Kak';
+  src: url('./Cofo_Kak/CoFo-Kak-Black.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VTB Group UI';
+  src: url('./VTB_Group_UI/VTBGroupUI-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+}
+
+/* Design Semi-bold, Regular */
+@font-face {
+  font-family: 'VTB Group UI';
+  src: url('./VTB_Group_UI/VTBGroupUI-Medium.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+}
