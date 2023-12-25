@@ -426,7 +426,7 @@ body {
   }
 }
 
-@media screen and (max-width: 656px) {
+@media screen and (max-width: 709px) {
   .enva-header__shadow {
     top: 431px;
   }
