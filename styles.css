@@ -432,8 +432,13 @@ body {
   }
 
   .enva-header-img-wrapper-hand {
-    right: -117px;
+    right: -97px;
   }
+
+  .enva-header-img-wrapper-pulse {
+    top: 321px;
+    right: 14px;
+}
 
   .enva-header-img-hand {
     width: 550px;
