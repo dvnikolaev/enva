@@ -35,8 +35,8 @@ body {
 }
 
 .enva-header-img-wrapper-pulse {
-  right: -210px;
-  top: -192px;
+  right: -230px;
+  top: -170px;
 }
 
 .enva-header-img-pulse {
@@ -580,6 +580,14 @@ body {
     margin-top: 689px;
   }
 
+  .enva-header-img-wrapper-pulse {
+    right: 6px;
+  }
+
+  .enva-header-img-wrapper-hand {
+    right: -103px;
+  }
+
   .enva-header__shadow {
     top: 229px;
   }
@@ -607,8 +615,4 @@ body {
   .enva-main-footer__header {
     font-size: 18px;
   }
-
-  /* .enva-header__shadow {
-    top: 268px;
-  } */
 }
