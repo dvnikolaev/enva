@@ -566,16 +566,7 @@ body {
   }
 }
 
-@media screen and (max-width: 425px) {
-  .enva-container {
-    background-position: calc(100vw - 920px) 280px;
-    background-size: 1400px 
-  }
-
-  .enva-container-inner {
-    background-position: 61px 640px;
-  }
-
+@media screen and (max-width: 428px) {
   .enva-main {
     margin-top: 689px;
   }
