@@ -16,6 +16,17 @@ body {
   overflow: hidden;
 }
 
+.enva-header-top2 {
+  position:absolute;
+  top:0;
+  right: 0;
+  width: 900px; height: 1045px; background-color: #000; background-image:url(assets/imgs/bg2.gif); background-size: 1400px; background-position: -180px -224px; background-repeat: no-repeat;
+}
+.enva-header-hand {
+  width: 100%; height: 100%; background-image:url(assets/imgs/hand_2.png); background-position: -16px 100px; background-repeat: no-repeat; background-size: 1075px;
+}
+
+
 .enva-container-inner {
 }
 
@@ -60,12 +71,12 @@ body {
   z-index: 0;
   width: 100%;
   height: 99px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .enva-header__img {
   margin: 20px 17px 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .enva-header-content {
@@ -307,6 +318,14 @@ body {
     min-width: 1210px;
   }
 
+  .enva-header-top2 {
+    top: 520px;
+    width: 100%; background-size: 1400px; background-position: center -232px;
+  }
+  .enva-header-hand {
+      background-position: center 100px;
+  }
+
   .enva-header-img-wrapper-pulse {
     top: 338px;
     right: -14px;
@@ -333,7 +352,7 @@ body {
 
   .enva-header__shadow {
     display: block;
-    top: 318px;
+    top: 488px;
   }
 
   .enva-main {
@@ -417,6 +436,10 @@ body {
     width: 100%;
   }
 
+  .enva-main {
+    margin-top: 689px;
+  }
+
   .enva-main__header {
     font-size: 32px;
   }
@@ -424,13 +447,20 @@ body {
   .enva-modal-content {
     width: calc(100% - 62px);
   }
+
+  .enva-header-top2 {
+    top: 500px;
+  }
+  .enva-header-hand {
+      background-size: 800px;
+  }
+
+  .enva-header__shadow {
+    top: 441px;
+  }
 }
 
 @media screen and (max-width: 709px) {
-  .enva-header__shadow {
-    top: 431px;
-  }
-
   .enva-header-img-wrapper-hand {
     right: -66px;
   }
@@ -452,14 +482,6 @@ body {
   .enva-container-inner {
     background-size: 100%;
     background-position: 111px 564px;
-  }
-
-  .enva-main {
-    margin-top: 689px;
-  }
-
-  .enva-header__shadow {
-    top: 311px;
   }
 }
 
@@ -484,6 +506,12 @@ body {
 
   .enva-main-content {
     padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .enva-header-top2 {
+    top: 470px;
   }
 }
 
@@ -516,6 +544,10 @@ body {
 
   .enva-container-inner {
     background-position: 61px 640px;
+  }
+
+  .enva-header-top2 {
+    top: 380px;
   }
 
   .enva-main {
@@ -567,7 +599,7 @@ body {
   }
 
   .enva-header__shadow {
-    top: 216px;
+    top: 336px;
   }
 }
 
@@ -582,10 +614,6 @@ body {
 
   .enva-header-img-wrapper-hand {
     right: -103px;
-  }
-
-  .enva-header__shadow {
-    top: 229px;
   }
 }
 
@@ -610,5 +638,9 @@ body {
 
   .enva-main-footer__header {
     font-size: 18px;
+  }
+
+  .enva-header-top2 {
+    top: 350px;
   }
 }
